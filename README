@@ -1,0 +1,14 @@
+This is a WordPress theme for theme developers. It is a good start point to develop your own templates. If you are looking for a beautiful out-of-box theme this is the wrong place. But it is beautiful inside…
+
+Features
+
+    * Supports multiple languages. All the words used in the theme are in the default gettext file used in WordPress (.mo and .po files).
+    * Supports Widgets, a famous plug-in to personalize the sidebar.
+    * Contain semantic hAtom microformats.
+    * Easy templating. The templates have all important elements and was thinked to only delete some if needed. Also you can rearrange it fast.
+    * Easy styling. It only has basic start style applied, but in the .css you can find all the selectors (ids and classes) used in the templates. The naming of this selectors are clear and nested-named.
+    * Of course valid XHTML 1.0 and CSS 2.0
+
+As example of a theme created based on StartPoint you can see http://www.jesuscarrera.info.
+
+Tested on WordPress 2.6.5
