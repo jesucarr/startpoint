@@ -7,8 +7,9 @@
     <meta name="language" content="en" />
     
     <title><?php bloginfo('name') ?><?php if ( is_404() ) : ?> &raquo; <?php _e('File not found') ?><?php elseif ( is_home() ) : ?> &raquo; <?php bloginfo('description') ?><?php else : ?><?php wp_title() ?><?php endif ?></title>
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-    
+    <link rel="icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Feed (RSS 2.0)" href="<?php bloginfo('rss2_url'); ?>" />
     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name') ?> <?php _e('Comments'); ?> Feed (RSS 2.0)" href="<?php bloginfo('comments_rss2_url') ?>" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
