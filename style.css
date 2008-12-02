@@ -5,6 +5,7 @@ Description: A theme for theme developers. A good start point to make your own t
 Version: 1.2 
 Author: Jesus Carrera
 Author URI: http://www.jesuscarrera.info/
+Tags: developers
 
 	Released under GPL:
 	http://www.opensource.org/licenses/gpl-license.php
@@ -12,35 +13,35 @@ Author URI: http://www.jesuscarrera.info/
 */
 
 body{
-    text-align:center;
+	text-align:center;
 }
 #layout{
-    margin:0px auto;
-    text-align:left;
-    width:760px;
-    border:1px solid #555;
+	margin:0px auto;
+	text-align:left;
+	width:760px;
+	border:1px solid #555;
 }
 #header{
-    border:1px solid #555;
-    padding:10px;
+	border:1px solid #555;
+	padding:10px;
 }
 #menu-top{
-    border:1px solid #555;
+	border:1px solid #555;
 }
 #menu-top li{
-    display:inline;
+	display:inline;
 }
 #content{
-    width:478px;
-    padding:10px;
-    float:left;
-    border:1px solid #555;
+	width:478px;
+	padding:10px;
+	float:left;
+	border:1px solid #555;
 }
 #sidebar{
-    width:238px;
-    padding:10px;
-    float:left;
-    border:1px solid #555;
+	width:238px;
+	padding:10px;
+	float:left;
+	border:1px solid #555;
 }
 .widget{
 	
@@ -79,34 +80,39 @@ body{
 	
 }
 #searchsubmit{
+	
 }
 #footer{
-    clear:both;
-    border:1px solid #555;
-    padding:10px;
+	clear:both;
+	border:1px solid #555;
+	padding:10px;
 }
 .post{
+	
 }
 .post-datetime{
-    
+	
 }
 .post-author{
-    
+	
 }
 .post-author-web{
-    
+	
 }
 .post-category{
-    
+	
 }
 .post-tags{
-    
+	
 }
 .post-entry{
+	
 }
 .post-entry-more{
+	
 }
 .post-comments{
+	
 }
 .post-custom-fields{
     
@@ -121,46 +127,70 @@ body{
 	
 }
 #comments{
+	
 }
 .comments-feed{
+	
 }
 .comment{
+	
 }
 .comment-number{
+	
 }
 .comment-datetime{
+	
 }
 .comment-author{
+	
+}
+.comment-avatar{
+	
 }
 .comment-moderated{
+	
 }
 .protected-comments{
+	
 }
 .allowed-tags{
+	
 }
 .attachment{
+	
 }
 .smallattachment{
+	
 }
 .attachment-link{
+	
 }
 .attachment-filename{
+	
 }
 #commentform{
+	
 }
 .commentform-required{
+	
 }
 #submit{
+	
 }
 .post-leavecomment{
+	
 }
 .post-trackbackurl{
+	
 }
 .odd{ 
+	
 }
 .archive-header{
+	
 }
 .search-header{
+	
 }
 .alignleft{
 	float:left;

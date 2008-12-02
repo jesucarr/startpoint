@@ -27,6 +27,7 @@
                 <div class="comment-number"><a href="#comment-<?php comment_ID() ?>" title="<?php _e('Comment')?> <?php echo $i+1 ?>"><?php echo $i+1 ?></a></div>
                 <div class="comment-datetime"><?php echo comment_date(__('l, j F Y, G:i')); ?></div>
                 <div class="comment-author"><?php _e('By') ?> <?php comment_author_link() ?></div>
+				<div class="comment-avatar"><?php echo get_avatar( $comment, 32 ); ?></div>
                 <?php edit_comment_link(__('Edit'),'[',']'); ?>
                 <?php if ($comment->comment_approved == '0') : ?>
                 <div class="comment-moderated"><?php echo __('Comment').' '.__('Moderated'); ?></div>
